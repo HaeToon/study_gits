@@ -14,6 +14,13 @@ public class Main {
         question1.put("score", "10");
         questions.add(question1);
         // 두 번째 문제
+        question1 = new HashMap<>();
+        question1.put("question", "2. Python에서 리스트(List)의 특징은 무엇인가요? (점수: 15점)");
+        question1.put("choices", "1) 순서가 있고 변경 가능하다, 2) 중복된 값을 가질 수 없다, 3) 원소를 추가하거나 삭제할 수 없다, 4) 정렬된 상태로 유지된다");
+        question1.put("correct", "1");
+        question1.put("score", "15");
+        questions.add(question1);
+        // 두 번째 문제
         HashMap<String, String> question2 = new HashMap<>();
         question2.put("question", "2. Python에서 리스트(List)의 특징은 무엇인가요? (점수: 15점)");
         question2.put("choices", "1) 순서가 있고 변경 가능하다, 2) 중복된 값을 가질 수 없다, 3) 원소를 추가하거나 삭제할 수 없다, 4) 정렬된 상태로 유지된다");
